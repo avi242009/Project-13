@@ -64,7 +64,7 @@ var select_sprites = Math.round(random(1,3));
 //}
 //}
 
-  if (frameCount / 80 == 0) {
+/*  if (frameCount / 80 == 0) {
   if (select_sprites == 1) {
   createApples();
    } else if (select_sprites == 2) {
@@ -72,17 +72,17 @@ var select_sprites = Math.round(random(1,3));
   }else {
   createRed();
  }
-  }
+  }*/
 
-//if (frameCount % 80 = 0) {
-//if (select_sprites == 1) {
-//createApples();
-//} else if (select_sprites == 2) {
-  // createOrange();
-//}else {
- //createRed();
-//}
-//}
+if (frameCount % 80 = 0) {
+if (select_sprites == 1) {
+createApples();
+} else if (select_sprites == 2) {
+ createOrange();
+}else {
+createRed();
+}
+}
 
 
 
